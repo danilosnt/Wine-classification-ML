@@ -40,12 +40,3 @@ Beyond classification, this project implements a **RAG-like approach** using Lar
 1.  Open the notebook in **Google Colab**.
 2.  (Optional) Add your Google API Key to enable the LLM features.
 3.  Run all cells to execute the training pipeline and generate the graphs.
-
-## 👥 Authors
-* [Your Name]
-* [Teammate Name]
-* [Teammate Name]
-* [Teammate Name]
-
----
-*Project developed in November 2025.*
