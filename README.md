@@ -5,7 +5,6 @@ This project performs a comparative analysis between **Support Vector Machines (
 ## Project Overview
 * **Goal:** Classify wines into three distinct cultivars (0, 1, or 2).
 * **Dataset:** [UCI Wine Dataset](https://archive.ics.uci.edu/dataset/109/wine) (178 samples, 13 chemical features).
-* **Context:** Developed for the Artificial Intelligence course at UCSal (Universidade Católica do Salvador).
 
 ## Tech Stack
 * **Language:** Python
