@@ -2,8 +2,6 @@
 
 This project performs a comparative analysis between **Support Vector Machines (SVM)** and **Decision Tree** algorithms to classify wine cultivars based on chemical analysis.
 
-Additionally, it features a **Generative AI integration (LLM)** that acts as a "Virtual Sommelier," interpreting the mathematical results into natural language descriptions.
-
 ## Project Overview
 * **Goal:** Classify wines into three distinct cultivars (0, 1, or 2).
 * **Dataset:** [UCI Wine Dataset](https://archive.ics.uci.edu/dataset/109/wine) (178 samples, 13 chemical features).
@@ -12,7 +10,6 @@ Additionally, it features a **Generative AI integration (LLM)** that acts as a "
 ## Tech Stack
 * **Language:** Python
 * **Libraries:** `scikit-learn`, `pandas`, `seaborn`, `matplotlib`.
-* **GenAI:** Google Gemini API (via `google-generativeai`).
 * **Environment:** Google Colab.
 
 ## Methodology
@@ -29,14 +26,3 @@ The **Decision Tree** model achieved superior performance for this specific prob
 | :--- | :--- | :--- |
 | **Decision Tree** | **98.14%** | **0.98** |
 | SVM (Linear) | 96.29% | 0.96 |
-
-## AI Sommelier (LLM Integration)
-Beyond classification, this project implements a **RAG-like approach** using Large Language Models.
-* The system takes the chemical features (e.g., Alcohol, Flavanoids) and the predicted class.
-* It feeds this data into an **LLM (Gemini Pro)** via prompt engineering.
-* **Output:** A detailed, human-readable explanation of the wine's characteristics, simulating a real sommelier's analysis.
-
-## How to Run
-1.  Open the notebook in **Google Colab**.
-2.  (Optional) Add your Google API Key to enable the LLM features.
-3.  Run all cells to execute the training pipeline and generate the graphs.
