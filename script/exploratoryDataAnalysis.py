@@ -12,7 +12,7 @@ df['target'] = wine_data.target
 
 # 4. Display the first few rows for verification
 print("--- First 5 Rows ---")
-display(df.head())
+print(df.head())
 
 # 5. Generate technical info for the paper
 print("\n--- Dataset Technical Info ---")
@@ -24,4 +24,4 @@ print(df.isnull().sum())
 
 # 7. Descriptive Statistics (Mean, Std Dev - useful for 'Results')
 print("\n--- Descriptive Statistics ---")
-display(df.describe())
+print(df.describe())
